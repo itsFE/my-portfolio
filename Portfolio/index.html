@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">FE</div>
+    <nav>
+      <ul>
+        <li><a href="#pag_inicial">Home</a></li>
+        <li><a href="#sobre_mim">Sobre Mim</a></li>
+        <li><a href="#meus_projetos">Meus Projetos</a></li>
+        <li><a href="#contato">Contate-me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="pag_inicial" class="content">
+    <div class="text">
+      <h2>Olá, me chamo Fernando.</h2>
+      <p>Seja bem-vindo.</p>
+      <div class="icons">
+        <a href="https://github.com/SEU_USUARIO_DO_GITHUB" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/SEU_PERFIL_DO_LINKEDIN" target="_blank"><i class="fab fa-linkedin"></i>
+          LinkedIn</a>
+      </div>
+    </div>
+    <div class="image">
+      <img src="assets/macpc.jpg" alt="Imagem de exemplo">
+    </div>
+  </section>
+
+  <section id="sobre_mim" class="content">
+    <div class="text">
+      <h2>Sobre Mim</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis facere ab eveniet aliquam possimus, nihil
+        officia fugiat, ipsam ipsa tenetur debitis vel, aspernatur nesciunt quibusdam provident molestias ea veritatis
+        ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis facere ab eveniet aliquam possimus,
+        nihil officia fugiat, ipsam ipsa tenetur debitis vel, aspernatur nesciunt quibusdam provident molestias ea
+        veritatis ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis facere ab eveniet aliquam
+        possimus, nihil officia fugiat, ipsam ipsa tenetur debitis vel, aspernatur nesciunt quibusdam provident
+        molestias ea veritatis ducimus.</p>
+    </div>
+  </section>
+
+  <section class="skills-section">
+    <h2>Minhas Habilidades</h2>
+    <div class="skill">
+      <div class="skill-icon">
+        <i class="fas fa-code"></i>
+      </div>
+      <span>HTML</span>
+    </div>
+    <div class="skill">
+      <div class="skill-icon">
+        <i class="fab fa-css3-alt"></i>
+      </div>
+      <span>CSS</span>
+    </div>
+  </section>
+
+  <section id="meus_projetos" class="projects-section">
+    <div class="project">
+      <img src="caminho-da-imagem1.jpg" alt="Projeto 1">
+      <h3>Projeto 1</h3>
+      <p>Descrição do projeto 1.</p>
+      <a href="projeto2.html">Ver mais</a>
+    </div>
+    <div class="project">
+      <img src="caminho-da-imagem2.jpg" alt="Projeto 2">
+      <h3>Projeto 2</h3>
+      <p>Descrição do projeto 2.</p>
+      <a href="projeto2.html">Ver mais</a>
+    </div>
+    <div class="project">
+      <img src="caminho-da-imagem3.jpg" alt="Projeto 3">
+      <h3>Projeto 3</h3>
+      <p>Descrição do projeto 3.</p>
+      <a href="projeto2.html">Ver mais</a>
+    </div>
+    <!-- Adicione mais projetos conforme necessário -->
+  </section>
+
+  <section id="contato" class="contact-section">
+    <h2>Contate-me</h2>
+    <p>Deixe sua mensagem abaixo:</p>
+    <form>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Mensagem:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</body>
+
+</html>
